@@ -64,8 +64,8 @@ en este caso declaramos una variable y con $( ) le pasamos la salida de "pwd"
 con $( ) podemos obtener la salida de un comando
 
 ### funciones
-para declarar funciones utilizamos la palabra reservada *function* y para declarar variables locales
-dentro de la funcion utilizaremos *local* para llamar a las variabes usamos *$* antes del nombre de 
+para declarar funciones utilizamos la palabra reservada <b>function*</b> y para declarar variables locales
+dentro de la funcion utilizaremos <b>local</b> para llamar a las variabes usamos <b>$</b> antes del nombre de 
 la variable que vamos a usar
 ```bash
     function hola_soy_la_funcion(){
