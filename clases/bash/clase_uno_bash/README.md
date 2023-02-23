@@ -58,13 +58,14 @@ recuerden que para eliminar carpeta con contenido utilizamos -r (recursivo)
 
 ### obener la salida de un comando y guardarlo en una variable
 en este caso declaramos una variable y con $( ) le pasamos la salida de "pwd"
+es con <b>$( )</b> que podemos obtener la salida de un comando
 ```bash
     variable=$( pwd )
 ```
-con $( ) podemos obtener la salida de un comando
+
 
 ### funciones
-para declarar funciones utilizamos la palabra reservada <b>function*</b> y para declarar variables locales
+para declarar funciones utilizamos la palabra reservada <b>function</b> y para declarar variables locales
 dentro de la funcion utilizaremos <b>local</b> para llamar a las variabes usamos <b>$</b> antes del nombre de 
 la variable que vamos a usar
 ```bash
