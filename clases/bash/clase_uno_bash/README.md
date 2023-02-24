@@ -3,9 +3,9 @@
 
 ## Dejo esta documentacion con lo utilizado en esta clase
 
-## - echo -
-## este comando escribe texto tanto en la consola como en archivos 
-## su sintaxis es la siguiente, se utiliza <> para indicar los parametros de los comandos
+## imprimir en la salida de la linea de comandos
+este comando escribe texto tanto en la consola como en archivos 
+su sintaxis es la siguiente, se utiliza <> para indicar los parametros de los comandos
 
 ### este comando imprime algo en consola
 ```bash
