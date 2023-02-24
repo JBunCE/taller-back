@@ -1,0 +1,25 @@
+realizar un script con las siguientes funciones 
+
+./script.bash init -> este comando deberia generar un arbol de directorios de la siguiente manera
+/<matricula> -> debe de tomarse del parametro dos
+
+dentro de la carpeta matricula pondremos estas dos carpetas
+/main
+/resources
+
+dentro de estas dos carpetas crearemos dos archivos 
+
+dentro de /main crear un archivo Main.java
+(Main.java debe de contener un psvm)
+
+dentro de /resources crear un archivo application.env
+
+./script.bash gen <nombre de la clase> -> este archivo deberia crear un archivo .java 
+dentro de /main/pojos/ (no se olviden de crear la carpeta pojos en este mismo comando)
+
+crear un alias: 
+bjava init
+bjava gen <nombre de la clase>
+
+(todo en un solo script)
+
