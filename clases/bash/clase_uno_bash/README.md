@@ -1,33 +1,30 @@
-# BASH #
-## COMMANDOS 
+### COMMANDOS BASICOS
 
-## Dejo esta documentacion con lo utilizado en esta clase
-
-## imprimir en la salida de la linea de comandos
+### imprimir en la salida de la linea de comandos
 este comando escribe texto tanto en la consola como en archivos 
 su sintaxis es la siguiente, se utiliza <> para indicar los parametros de los comandos
 
-### este comando imprime algo en consola
+este comando imprime algo en consola
 ```bash
     echo <string>
 ```
 
-### este comando escribe un string en un archivo de texto (>>)
+este comando escribe un string en un archivo de texto (>>)
 ```bash
     echo <string> >> <file>
 ```
 
-### este comando sobreescribe un string en un archivo de texto (>)
+este comando sobreescribe un string en un archivo de texto (>)
 ```bash
     echo <string> > <file>
 ```
 
-### este comando obtener el contenido de un archivo
+este comando obtener el contenido de un archivo
 ```bash
     cat <file>
 ```
 
-<h1>comandos basicos</h1>
+## comandos basicos
 
 ### mover archivos
 ```bash
@@ -57,7 +54,7 @@ recuerden que para eliminar carpeta con contenido utilizamos -r (recursivo)
 ```
 
 ### obener la salida de un comando y guardarlo en una variable
-en este caso declaramos una variable y con $( ) le pasamos la salida de "pwd"
+en este caso declaramos una variable y le pasamos la salida de "pwd"
 es con <b>$( )</b> que podemos obtener la salida de un comando
 ```bash
     variable=$( pwd )

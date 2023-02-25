@@ -1,0 +1,21 @@
+Debido a que el script de la clase dos ya genera clases de java
+a manera de (practica) 
+este script debe de generar .html y un .css
+la generacion la haran de la siguiente manera
+no veremos html y css en el curso porque pues es un curso de back y yo soy el back
+pero voy a calarlos para ver si le entendieron al BashScript :)
+
+No se olviden de usar LOGGER - si no hay logger nada, nada de nivel, 0
+
+En un script de bash realizar lo siguiente:
+
+./script gen ./carpeta rigoberto
+este comando deberia de generar un rigoberto.html y un rigoberto.css 
+dentro de un directorio especifico, directorio de la cual nosotros le indicaremos la ruta
+
+despues configuren un alias del script 
+
+(el .html no debe de estar vacio)
+(si sos front - puedes agregar una plantilla a tu archivo .html generado)
+(el css puede estar vacio pero debe de estar linkeado al .html)
+(js no pq esto es un curso de back y pq no me gusta tambien :D)
