@@ -1,5 +1,8 @@
-parametro_uno=$1
-parametro_dos_nombre=$2
+readonly parametro_uno=$1
+#parametro_dos_nombre=$2
+
+echo -e "\e[32m[INFO]\e[0m - introduzca nombre del paquete"
+read -p "> " parametro_dos_nombre
 
 function init(){
     echo -e "\e[32m[INFO]\e[0m - generando arbol del proyecto"
@@ -30,19 +33,24 @@ function gen(){
     } " > ./main/pojos/$parametro_dos_nombre.java
 }
 
-if [ $parametro_uno == "init" ];
-then
-    init
-else
-    if [ $parametro_uno == "gen" ];
-    then
-        gen
-    else
-        echo -e "\e[33m[WARN]\e[0m - comando desconocido "
-    fi
-fi
+function comand_selection(){
 
+    case $parametro_uno in
 
+        init)
+            init
+        ;;
 
+        gen)
+            gen
+        ;;
 
+        *)
+            echo -e "\e[33m[WARN]\e[0m - comando desconocido "
+        ;;
 
+    esac
+
+}
+
+comand_selection
